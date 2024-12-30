@@ -1,0 +1,230 @@
+
+
+.heading {
+    color: blue;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.li-color {
+    color: black;
+}
+
+.image {
+    width: 90px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+#navItem1 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 22px;
+}
+
+#navItem2 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 22px;
+}
+
+#navItem3 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 22px;
+}
+
+.menu-container {
+    background-image: linear-gradient(to right, orange, pink);
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .menu-container {
+        background-color: #e9ecef;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu-container {
+        background-color: #dee2e6;
+    }
+
+    .home-section {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .responsive-image {
+        height: 80vh;
+        width: 100%;
+    }
+
+    .nav-height {
+        height: 20vh;
+    }
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.bg-head {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+}
+
+.lead {
+    color: green;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cafe-head {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: linear-gradient(135deg, #e91e63, #ff9800);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.card .card-title {
+    font-size: 1.6rem;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.list-group-item {
+
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.list-group-item span {
+    font-weight: 900;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.para {
+    color: #323f4b;
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+}
+
+.responsive-image {
+    max-width: 100%;
+    max-height: 140%;
+    display: block;
+}
+
+@media screen and (max-width: 991px) {
+    .home-section {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .responsive-image {
+        max-width: 130%;
+        width: 100%;
+        max-height: 140%;
+    }
+
+    .responsive-image {
+        max-width: 130%;
+        width: 100%;
+        height: 100vh;
+        max-height: 140%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-section {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image:url("https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D");
+        padding: 20px;
+    }
+
+    .responsive-image {
+        padding: 20px;
+        margin: 10px;
+        max-width: 130%;
+        width: 100vw;
+        height: 40vh;
+        max-height: 140%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .home-section {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image:url("https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D");
+        padding: 20px;
+        background-size:cover;
+    }
+
+    .responsive-image {
+        padding: 20px;
+        margin: 10px;
+        max-width: 130%;
+        width: 100vw;
+        height: 40vh;
+        max-height: 140%;
+    }
+}
